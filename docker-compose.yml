@@ -1,0 +1,9 @@
+
+version: '3.4'
+
+services:
+  cicddemo:
+    image: cicddemo
+    build:
+      context: .
+      dockerfile: ./Dockerfile
