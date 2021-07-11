@@ -6,7 +6,7 @@ namespace HelloWorldTest
     
     public class UnitTest1
     {
-        private const string Expected ="Hello Mansi!";
+        private const string Expected ="Hello Tom!";
         public void TestMethod1()
         {
             using (var sw = new StringWriter())
